@@ -1,5 +1,6 @@
  body {
      font-family: arial,sans-serif;
+     margin: 0px;
 
  }
 .container {
@@ -7,6 +8,7 @@
     flex-direction: column;
     height: 100vh;
     width: 100%;
+    border-sizing: border-box;
 }
 .box1 {
     flex-basis: 48px;
@@ -68,11 +70,13 @@ input[type="submit"]:hover {
     flex-wrap: wrap;
     border-top: solid 1px #dadce0;
     background-color: rgb(238, 239, 241);
-    flex-basis: 48px;
-    justify-content: space-evenly;
+    flex-basis: auto;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     font-size: 14px;
+    justify-content: space-between;
 }
 
 li {
@@ -121,6 +125,7 @@ li {
   }
   #grip {
       text-decoration: none;
+      padding-right: 10px;
   }
   #x {
       padding-right: 5px;
