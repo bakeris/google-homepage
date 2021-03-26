@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Homepage</title>
     <link rel="stylesheet" href="app.css">
+    <link href='fontawesome-free-5.15.3-web/css/all.css' rel='stylesheet'>
 </head>
 <body>
     <div class="container">
         <div class="box1">
             <ul>
+            <li><a href="#" class="fas fa-grip-horizontal" id="grip"></a></li>
             <li><a href="#gmail">Gmail</a></li>
             <li><a href="#images">Images</a></li>
           </ul>
@@ -19,9 +21,17 @@
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google" class="google">
         </div>
         <div class="box3">
-            <form action="input">
-                <input type="search" name="search" id="search">
-            </form>
+            <form action="search">
+            <div class="searchContainer">
+                <i class="fas fa-search" id="zoom"></i>
+                <input class="searchBox" type="search" id="search">
+                <a href="#" class="fas fa-times" id="x"></a>
+            </div>
+            <div class="buttons">
+            <input type="submit" value="Google Search" name="googleSearch" id="googleSearch">
+            <input type="submit" value="I'm Feeling Lucky!" name="googleSearch" id="googleSearch">
+        </div>
+        </form>
         </div>
         <div class="box4"></div>
         <div class="box5">United Kingdom</div>
