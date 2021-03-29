@@ -12,7 +12,6 @@
 }
 .box1 {
     flex-basis: 48px;
-
 }
 .box2 {
     display: flex;
@@ -20,7 +19,7 @@
     justify-content: center;
     flex-basis: 261px; 
 }
-.buttons {
+.sButtons {
     display: block;
     text-align: center;
     width: auto;
@@ -85,7 +84,7 @@ li {
     display: inline;
     float: right;
     padding-left: 15px;
-    font-size: 17px;
+    font-size: 13px;
   }
   a {
       color: rgba(0,0,0,0.87);
@@ -133,6 +132,8 @@ li {
       color: #9aa0a6;
       text-decoration: none;
   }
+
+  
   
  
   
